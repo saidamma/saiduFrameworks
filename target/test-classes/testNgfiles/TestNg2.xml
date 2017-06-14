@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data drivern Db test">
+	<listeners>
+		<listener class-name="com.saucelabs.testng.SauceOnDemandTestListener"></listener>
+	</listeners>
+	<parameter name="stack" value="uat1" />
+
+	<parameter name="site" value="remote" />
+
+	<test name="DBdatalogin">
+		<classes>
+			<class name="com.db_dataDrivenTest.db_data.DbDataTestscript" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

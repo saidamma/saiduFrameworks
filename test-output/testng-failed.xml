@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data drivern Db test]">
+  <parameter name="stack" value="uat1"/>
+  <parameter name="site" value="local"/>
+  <listeners>
+    <listener class-name="com.saucelabs.testng.SauceOnDemandTestListener"/>
+  </listeners>
+  <test name="DBdatalogin(failed)" preserve-order="true">
+    <classes>
+      <class name="com.db_dataDrivenTest.db_data.DbDataTestscript">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Asserttest2"/>
+          <include name="testlogin"/>
+          <include name="report"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.db_dataDrivenTest.db_data.DbDataTestscript -->
+    </classes>
+  </test> <!-- DBdatalogin(failed) -->
+</suite> <!-- Failed suite [Data drivern Db test] -->

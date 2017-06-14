@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.db_dataDrivenTest.db_data.DataFromDb">
+        <methods>
+          <include name="dataFromDbTest"/>
+        </methods>
+      </class> <!-- com.db_dataDrivenTest.db_data.DataFromDb -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

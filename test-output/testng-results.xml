@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data drivern Db test" duration-ms="84950" started-at="2017-04-21T12:23:16Z" finished-at="2017-04-21T12:24:41Z">
+    <groups>
+    </groups>
+    <test name="DBdatalogin" duration-ms="84950" started-at="2017-04-21T12:23:16Z" finished-at="2017-04-21T12:24:41Z">
+      <class name="com.db_dataDrivenTest.db_data.DbDataTestscript">
+        <test-method status="PASS" signature="report()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="report" is-config="true" duration-ms="213" started-at="2017-04-21T17:53:16Z" finished-at="2017-04-21T17:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="initializeTestBaseSetup" is-config="true" duration-ms="9205" started-at="2017-04-21T17:53:16Z" finished-at="2017-04-21T17:53:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uat1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.db_dataDrivenTest.db_data.DbDataTestscript.Asserttest2()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="FAIL" signature="Asserttest2()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="Asserttest2" duration-ms="12051" started-at="2017-04-21T17:53:25Z" finished-at="2017-04-21T17:53:37Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [saidu] but found [sai]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [saidu] but found [sai]
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.db_dataDrivenTest.db_data.DbDataTestscript.Asserttest2(DbDataTestscript.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asserttest2 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="tearDown" is-config="true" duration-ms="1391" started-at="2017-04-21T17:53:37Z" finished-at="2017-04-21T17:53:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Asserttest2 STATUS:FAILURE METHOD:DbDataTestscript.Asserttest2()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="initializeTestBaseSetup" is-config="true" duration-ms="9189" started-at="2017-04-21T17:53:39Z" finished-at="2017-04-21T17:53:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uat1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.db_dataDrivenTest.db_data.DbDataTestscript.Asserttest3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="Asserttest3()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="Asserttest3" duration-ms="13699" started-at="2017-04-21T17:53:48Z" finished-at="2017-04-21T17:54:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Asserttest3 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="tearDown" is-config="true" duration-ms="2038" started-at="2017-04-21T17:54:01Z" finished-at="2017-04-21T17:54:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: Asserttest3 STATUS:SUCCESS METHOD:DbDataTestscript.Asserttest3()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="initializeTestBaseSetup" is-config="true" duration-ms="13266" started-at="2017-04-21T17:54:04Z" finished-at="2017-04-21T17:54:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uat1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.db_dataDrivenTest.db_data.DbDataTestscript.testlogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="FAIL" signature="testlogin()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="testlogin" duration-ms="22185" started-at="2017-04-21T17:54:17Z" finished-at="2017-04-21T17:54:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: {"method":"xpath","selector":"//b[@class='memberName']"}
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NBLAP105', ip: '10.192.38.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73ee72aa-7ca2-4aa3-8778-a9adc9e1c067
+*** Element info: {Using=xpath, value=//b[@class='memberName']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//b[@class='memberName']"}
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NBLAP105', ip: '10.192.38.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 73ee72aa-7ca2-4aa3-8778-a9adc9e1c067
+*** Element info: {Using=xpath, value=//b[@class='memberName']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.db_dataDrivenTest.db_data.DbDataTestscript.testlogin(DbDataTestscript.java:161)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:715)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:907)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1237)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:51)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:85)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1197)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1122)
+	at org.testng.TestNG.run(TestNG.java:1030)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//b[@class='memberName']"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'NBLAP105', ip: '10.192.38.211', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_71'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/SAIDAM~1/AppData/Local/Temp/anonymous6536328633595722458webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///C:/Users/SAIDAM~1/AppData/Local/Temp/anonymous6536328633595722458webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10779)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/SAIDAM~1/AppData/Local/Temp/anonymous6536328633595722458webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///C:/Users/SAIDAM~1/AppData/Local/Temp/anonymous6536328633595722458webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12666)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///C:/Users/SAIDAM~1/AppData/Local/Temp/anonymous6536328633595722458webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12608)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]" name="tearDown" is-config="true" duration-ms="1896" started-at="2017-04-21T17:54:39Z" finished-at="2017-04-21T17:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult: testlogin STATUS:FAILURE METHOD:DbDataTestscript.testlogin()[pri:0, instance:com.db_dataDrivenTest.db_data.DbDataTestscript@10bdf5e5]]
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.db_dataDrivenTest.db_data.DbDataTestscript -->
+    </test> <!-- DBdatalogin -->
+  </suite> <!-- Data drivern Db test -->
+</testng-results>

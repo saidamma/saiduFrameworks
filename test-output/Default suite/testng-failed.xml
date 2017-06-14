@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.db_dataDrivenTest.db_data.DbDataTestscript">
+        <methods>
+          <include name="testlogin"/>
+          <include name="report"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.db_dataDrivenTest.db_data.DbDataTestscript -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
